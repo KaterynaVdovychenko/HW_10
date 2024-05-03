@@ -1,0 +1,16 @@
+  215  touch text_ignore.txt
+  216  ls -l
+  217  git status
+  218  git add .
+  219  git commit -m "changed gitignore" 
+  220  git status
+  221  git push origin main
+  222  touch main_text.txt
+  223  git add .
+  224  git commit -m "poroznii fail main"
+  225  git status
+  226  git push origin main_text.txt
+  227  git status
+  228  git push orogin main
+  229  git push origin main
+  230  history command_list.csv
