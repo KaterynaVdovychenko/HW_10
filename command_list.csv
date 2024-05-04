@@ -1,0 +1,160 @@
+  153  git status 
+  154  clear
+  155  cd /Users/katerynavdovychenko/Documents
+  156  ls -l
+  157  rm nova_papka_kv
+  158  ls -l
+  159  rm nova_papka_kv
+  160  mkdir homeworkGit
+  161  ls -l
+  162  cd homeworkGit
+  163  touch text_ignore.txt
+  164  ls -l
+  165  cd ..
+  166  c homeworkGit
+  167  cd homeworkGit
+  168  ls -l
+  169  rm text_ignore.txt
+  170  ls -l
+  171  git config --global user.name KaterynaVdovychenko
+  172  git config --ger user.name 
+  173  git config --get user.name
+  174  git config --global user.email kateryna.vdovychenko2019@gmail.com
+  175  git config --get user.email
+  176  clear
+  177  git clone https://github.com/KaterynaVdovychenko/HW_10.git
+  178  ls -l
+  179  cd HW_10
+  180  ls -l
+  181  ls -la
+  182  git status
+  183  git log
+  184  git checkout -b develop
+  185  git branch
+  186  git status 
+  187  touch develop_test.txt
+  188  ls -l
+  189  git status
+  190  git add
+  191  git add .
+  192  git status 
+  193  git commit -m "added new file"
+  194  git status 
+  195  git log 
+  196  git checkout develop
+  197  git chckout main
+  198  git checkout main
+  199  git log 
+  200  git checkout develop
+  201  git push
+  202  git push origin develop
+  203  git push --set-upstream origin develop
+  204  git push --set-upstream origin develop
+  205  git push --set-upstream origin develop
+  206  git push origin develop
+  207  clear
+  208  git checkout main
+  209  git merge develop
+  210  git status
+  211  git log 
+  212  git push origin main
+  213  ls -la 
+  214  vim .gitignore
+  215  touch text_ignore.txt
+  216  ls -l
+  217  git status
+  218  git add .
+  219  git commit -m "changed gitignore" 
+  220  git status
+  221  git push origin main
+  222  touch main_text.txt
+  223  git add .
+  224  git commit -m "poroznii fail main"
+  225  git status
+  226  git push origin main_text.txt
+  227  git status
+  228  git push orogin main
+  229  git push origin main
+  230  history command_list.csv
+  231  history > command_list.csv
+  232  git add .
+  233  git commit -m "history of homework"
+  234  git push origin main
+  235  clear 
+  236  cd HomeworkGit
+  237  cd homeworkGit
+  238  history
+  239  history > command_list.csv
+  240  history
+  241  clear 
+  242  histiry -100
+  243  history -100
+  244  history - 300
+  245  history -300
+  246  cd /Users/katerynavdovychenko/Documents 
+  247  ls -l
+  248  c homeworkGit
+  249  cd homeworkGit
+  250  ls -l
+  251  cd HW_10
+  252  history -300  > command_list.csv
+  253  git add .
+  254  git push origin main
+  255  git status
+  256  history -300  > command_list.csv
+  257  git add .
+  258  git commit -m "nova istoriia"
+  259  git push origin main
+  260  history -91
+  261  history -100
+  262  history -150
+  263  history -100 > command_list.csv 
+  264  git add .
+  265  git commit -m "new history" 
+  266  git push origin main
+  267  ls -l
+  268  cd main_text.txt
+  269  cd main_text.txt
+  270  vim main_text.txt
+  271  mv main_text.txt main_test.txt
+  272  git add .
+  273  git commit -m "poroznii fail main"
+  274  git push origin main
+  275  vim develop_test.txt
+  276  git add . 
+  277  git commit -m "vneseni zminy v tekst"
+  278  git push origim main 
+  279  git push origin main
+  280  git checkout main 
+  281  git checkout develop
+  282  ls -l
+  283  vim develop_test.txt
+  284  git add .
+  285  git commit -m "vneseni zminy v tekst"
+  286  git push origin develop
+  287  ls -l
+  288  ls -la
+  289  history -150 > command_list.csv
+  290  git add .
+  291  git commit -m "new history"
+  292  git push origin main
+  293  git status
+  294  git push origin develop
+  295  git checkout main
+  296  ls -l
+  297  rm develop_test.txt
+  298  ls -l
+  299  git add .
+  300  git commit 
+  301  cd /Users/katerynavdovychenko/Documents
+  302  cd homeworkGit
+  303  git checkout main
+  304  ls -l
+  305  cd HW_10
+  306  git checkout main
+  307  ls -l
+  308  rm command_list.csv
+  309  git add .
+  310  git commit -m "vydalenia"
+  311  git status
+  312  git push origin main
